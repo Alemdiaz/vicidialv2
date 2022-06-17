@@ -54,7 +54,7 @@ export default function Dashboard(props) {
   return (
     <>
     {/* netlife */}
-      <PageTitle title="Vista Principal" /* button={<Button
+      <PageTitle title="Home" /* button={<Button
       variant="contained"
       size="medium"
       color="secondary"
