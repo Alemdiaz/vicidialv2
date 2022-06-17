@@ -84,7 +84,7 @@ function Login(props) {
                 value={loginValue}
                 onChange={e => setLoginValue(e.target.value)}
                 margin="normal"
-                placeholder="Email Adress"
+                placeholder="Correo Electronico"
                 type="email"
                 fullWidth
               />
@@ -99,7 +99,7 @@ function Login(props) {
                 value={passwordValue}
                 onChange={e => setPasswordValue(e.target.value)}
                 margin="normal"
-                placeholder="Password"
+                placeholder="Contraseña"
                 type="password"
                 fullWidth
               />
