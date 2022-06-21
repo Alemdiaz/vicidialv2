@@ -13,7 +13,7 @@ export default makeStyles(theme => ({
   },
   logotypeContainer: {
     /**netlife */
-    backgroundColor: "#000",
+    backgroundColor: "#643579",
     width: "60%",
     height: "100%",
     display: "flex",

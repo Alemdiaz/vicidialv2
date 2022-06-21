@@ -5,6 +5,7 @@ import { Drawer, IconButton, List } from "@material-ui/core";
 //cambiar iconos
 import {
   Home as HomeIcon,
+  Flag as FlagIcon,
   NotificationsNone as NotificationsIcon,
   FormatSize as TypographyIcon,
   FilterNone as UIElementsIcon,
@@ -40,16 +41,31 @@ const structure = [
   {
     id: 1,
     label: "Reportes",
-    link: "/app/typography",
+    link: "/app/ui/charts",
     icon: <ReportIcon/>,
   },
   // { id: 2, label: "Reportes", link: "/app/tables", icon: <TableIcon /> },
+
+  {
+    id: 2,
+    label: "Campañas",
+    link: "/app/ui",
+    icon: <FlagIcon/>,
+         children: [
+            { label: "Icons", link: "/app/ui/icons" },
+          //  { label: "Charts", link: "/app/ui/charts" },
+            { label: "Maps", link: "/app/ui/maps" },
+    ],
+  },
+
   {
     id: 3,
     label: "Configuraciones",
     link: "/app/notifications",
     icon: <ConstructionIcon/>,
   },
+
+
   { id: 5, type: "divider" ,icon: <ConstructionIcon/>},
   //netlife
   // {
