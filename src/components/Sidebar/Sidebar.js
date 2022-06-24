@@ -52,9 +52,10 @@ const structure = [
     link: "/app/ui",
     icon: <FlagIcon/>,
          children: [
-            { label: "Tablas", link: "/app/tables" },
+            { label: "Menu Campañas", link: "/app/tables" },
           //  { label: "Charts", link: "/app/ui/charts" },
-            { label: "Maps", link: "/app/ui/maps" },
+            { label: "Añadir Campañas", link: "/app/typography" },
+            { label: "Añadir Listas", link: "/app" },
     ],
   },
 

@@ -84,7 +84,7 @@ function Login(props) {
                 value={loginValue}
                 onChange={e => setLoginValue(e.target.value)}
                 margin="normal"
-                placeholder="Corregito Electronico"
+                placeholder="Correo Electronico"
                 type="email"
                 fullWidth
               />
