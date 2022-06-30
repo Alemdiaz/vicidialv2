@@ -54,8 +54,9 @@ const structure = [
          children: [
             { label: "Menu Campañas", link: "/app/tables" },
           //  { label: "Charts", link: "/app/ui/charts" },
+          { label: "Añadir Listas", link: "/app" },
             { label: "Añadir Campañas", link: "/app/typography" },
-            { label: "Añadir Listas", link: "/app" },
+            
     ],
   },
 
